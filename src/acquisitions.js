@@ -14,7 +14,7 @@ import Chart from 'chart.js/auto'
   new Chart(
     document.getElementById('acquisitions'),
     {
-      type: 'bar',
+      type: 'doughnut',
       data: {
         labels: data.map(row => row.year),
         datasets: [
